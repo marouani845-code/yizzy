@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b0f">
+  <meta name="description" content="Original beats by Yizzy Beats. Find the sound for your next track.">
+  <title>YIZZY BEATS — Find Your Next Sound</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="announcement">INDEPENDENT PRODUCER · ORIGINAL SOUND</div>
+  <header class="nav">
+    <a class="logo" href="#top">YIZZY<span>.</span>BEATS</a>
+    <nav><a href="#beats">Beats</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+    <a class="nav-cta" href="#beats">EXPLORE BEATS ↗</a>
+  </header>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> BEATS FOR YOUR NEXT CHAPTER</p>
+        <h1>MAKE YOUR<br>NEXT TRACK<br><em>UNFORGETTABLE.</em></h1>
+        <p class="intro">Original productions. Distinct melodies. Your sound starts here.</p>
+        <div class="hero-actions"><a class="button" href="#beats">LISTEN TO THE BEATS <span>↓</span></a><a class="text-link" href="#contact">Need a custom beat? ↗</a></div>
+        <div class="stats"><div><strong>05</strong><span>BEAT SLOTS</span></div><div><strong>100%</strong><span>YOUR VISION</span></div><div><strong>YB.</strong><span>INDEPENDENT</span></div></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract music artwork">
+        <div class="art-top"><span>YB / VOL. 001</span><span>STUDIO SERIES</span></div>
+        <div class="ring ring-one"></div><div class="ring ring-two"></div><div class="orb"></div>
+        <div class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="art-bottom"><strong>FIND YOUR FREQUENCY.</strong><span>01 — 05 / PRODUCTIONS</span></div>
+      </div>
+    </section>
+    <section class="beats section" id="beats">
+      <div class="section-head"><div><p class="eyebrow">THE COLLECTION / 001</p><h2>CHOOSE YOUR <em>SOUND.</em></h2></div><p class="section-note">Press play to preview. Pick a beat to ask about a licence.</p></div>
+      <div class="beat-grid" id="beat-grid"></div>
+      <p class="notice">Preview files are placeholders until you upload your own audio. Replace them in the <code>songs</code> folder.</p>
+    </section>
+    <section class="manifesto" id="about"><div class="manifesto-mark">YB<span>.</span></div><div><p class="eyebrow">THE SOUND OF YIZZY</p><h2>YOUR VISION.<br><em>MY PRODUCTION.</em></h2><p>Every track starts with an idea. Find the instrumental that fits yours, then let's build something that sounds like you.</p></div></section>
+    <section class="contact section" id="contact">
+      <p class="eyebrow">LET'S MAKE SOMETHING</p><h2>YOUR NEXT TRACK<br>STARTS <em>HERE.</em></h2>
+      <p class="contact-intro">For beat licences, custom productions, collaborations, or questions, get in touch.</p>
+      <div class="contact-links">
+        <a href="mailto:Yizzybeats1@gmail.com"><span>EMAIL</span><strong>Yizzybeats1@gmail.com ↗</strong></a>
+        <a href="https://www.instagram.com/yizzy.beats/" target="_blank" rel="noopener noreferrer"><span>INSTAGRAM</span><strong>@yizzy.beats ↗</strong></a>
+        <a href="tel:+33612947724"><span>PHONE</span><strong>+33 6 12 94 77 24 ↗</strong></a>
+      </div>
+      <div class="payments"><span>PAYMENT OPTIONS</span><b>PAYPAL</b><b>WERO · BY ARRANGEMENT</b><small>Online checkout is not active until merchant accounts and secure payment links are configured.</small></div>
+    </section>
+  </main>
+  <footer><a class="logo" href="#top">YIZZY<span>.</span>BEATS</a><span>© <span id="year"></span> YIZZY BEATS</span><a href="#top">BACK TO TOP ↑</a></footer>
+  <dialog id="licence-dialog">
+    <button class="close" id="close-dialog" aria-label="Close">×</button><p class="eyebrow">BEAT ENQUIRY</p><h2 id="dialog-title">BEAT ONE</h2>
+    <p>Choose a licence to discuss with Yizzy. Prices below are suggested placeholders—confirm the terms before selling.</p>
+    <label for="licence">Licence type</label><select id="licence"><option value="Basic MP3">Basic MP3 — €29.99</option><option value="Premium WAV">Premium WAV — €59.99</option><option value="Unlimited">Unlimited — €99.99</option></select>
+    <a id="email-enquiry" class="button full" href="mailto:Yizzybeats1@gmail.com">ASK ABOUT THIS LICENCE ↗</a>
+    <p class="dialog-note">This sends an enquiry by email; it does not take payment.</p>
+  </dialog>
+  <script src="./app.js"></script>
+</body>
+</html>
